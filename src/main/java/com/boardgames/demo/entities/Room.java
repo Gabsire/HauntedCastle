@@ -6,7 +6,7 @@ import java.util.List;
 public class Room {
 
 	private String name;
-	private String[] walls;
+	private RoomBorder[] roomBorders;
 	private List<RoomComponent> roomComponents;
 	private List<FloorValue> floorValues;
 
@@ -18,12 +18,12 @@ public class Room {
 		this.name = name;
 	}
 
-	public String[] getWalls() {
-		return walls;
+	public RoomBorder[] getRoomBorders() {
+		return roomBorders;
 	}
 
-	public void setWalls(String[] walls) {
-		this.walls = walls;
+	public void setRoomBorders(RoomBorder[] roomBorders) {
+		this.roomBorders = roomBorders;
 	}
 
 	public List<RoomComponent> getRoomComponents() {
@@ -44,8 +44,8 @@ public class Room {
 
 	@Override
 	public String toString() {
-		return "Room [name=" + name + ", walls=" + Arrays.toString(walls) + ", roomComponents=" + roomComponents
-				+ ", floorValues=" + floorValues + "]";
+		return "Room [name=" + name + ", roomBorders=" + Arrays.toString(roomBorders) + ", roomComponents="
+				+ roomComponents + ", floorValues=" + floorValues + "]";
 	}
 
 }

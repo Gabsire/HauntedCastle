@@ -1,5 +1,7 @@
 package com.boardgames.demo.entities;
 
+import java.util.Arrays;
+
 public class Board {
 
 	private Player[] players;
@@ -19,6 +21,11 @@ public class Board {
 
 	public void setFloors(Floor[] floors) {
 		this.floors = floors;
+	}
+
+	@Override
+	public String toString() {
+		return "Board [players=" + Arrays.toString(players) + ", floors=" + Arrays.toString(floors) + "]";
 	}
 
 }
