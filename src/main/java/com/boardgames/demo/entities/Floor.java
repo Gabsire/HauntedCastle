@@ -1,5 +1,7 @@
 package com.boardgames.demo.entities;
 
+import com.boardgames.demo.enums.FloorValue;
+
 public class Floor {
 
 	FloorValue floorValue;

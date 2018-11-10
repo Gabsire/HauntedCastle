@@ -15,9 +15,9 @@ public class Game {
 
 	public Game initializeGame() {
 		Game game = new Game();
-		id = new AtomicInteger();
-		numberOfTurns = 0;
-		numberOfOmens = 0;
+		game.setId(new AtomicInteger());
+		game.setNumberOfTurns(0);
+		game.setNumberOfOmens(0);
 		Board board = new Board();
 		return game;
 

@@ -1,4 +1,4 @@
-package com.boardgames.demo.entities;
+package com.boardgames.demo.enums;
 
 public enum FloorValue {
 

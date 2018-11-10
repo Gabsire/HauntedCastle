@@ -1,5 +1,7 @@
 package com.boardgames.demo.entities;
 
+import com.boardgames.demo.enums.RoomComponentValue;
+
 public class RoomComponent {
 
 	private String name;

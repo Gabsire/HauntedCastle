@@ -3,6 +3,8 @@ package com.boardgames.demo.entities;
 import java.util.Arrays;
 import java.util.List;
 
+import com.boardgames.demo.enums.FloorValue;
+
 public class Room {
 
 	private String name;
