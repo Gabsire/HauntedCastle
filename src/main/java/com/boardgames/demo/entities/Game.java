@@ -13,14 +13,13 @@ public class Game {
 
 	}
 
-	public Game initializeGame() {
+	public Game initialize() {
 		Game game = new Game();
 		game.setId(new AtomicInteger());
 		game.setNumberOfTurns(0);
 		game.setNumberOfOmens(0);
 		Board board = new Board();
 		return game;
-
 	}
 
 	public AtomicInteger getId() {
